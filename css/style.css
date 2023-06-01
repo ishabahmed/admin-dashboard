@@ -21,6 +21,18 @@ body {
   align-items: center;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
+.clickable-down:active {
+  transform: translateY(4px);
+}
+
+.clickable-shrink:active {
+  transform: scale(0.95);
+}
+
 /* Header */
 
 .header {
@@ -102,6 +114,10 @@ body {
   font-size: 1rem;
 }
 
+.header-bottom__right button:hover {
+  filter: brightness(1.1);
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -135,6 +151,11 @@ body {
 
 .sidebar__items__item {
   gap: 1rem;
+}
+
+/* underline text when hover over and make pointer */
+.sidebar__items__item-text:hover {
+  text-decoration: underline;
 }
 
 .sidebar__items__item img {
@@ -181,6 +202,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.content__main__projects .content__main__projects-project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Content - Announcements */

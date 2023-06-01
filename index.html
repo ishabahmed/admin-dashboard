@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>Admin Dashboard</title>
 </head>
+
 <body>
   <div class="container">
     <div class="header">
       <div class="header-top flex-center">
         <div class="header-top__left flex-center">
-          <div class="header-top__left__search">
+          <div class="header-top__left__search flex-center">
             <img src="./icons/search.svg" alt="search">
             <input type="text">
           </div>
@@ -23,7 +25,7 @@
           <div class="header-top__right__user flex-center">
             <img src="./images/avatar.svg" alt="user">
             <span class="header-top__right__user-name">Ishab Ahmed</span>
-          </div>  
+          </div>
         </div>
       </div>
 
@@ -37,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="header-bottom__right">
+        <div class="header-bottom__right flex-center">
           <button>New</button>
           <button>Upload</button>
           <button>Share</button>
@@ -102,18 +104,47 @@
       </div>
     </div>
     <div class="content">
-      <div class="content__projects">
-
+      <div class="content__main">
+        <span class="content__main-title">Your Projects</span>
+        <div class="content__main__projects">
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 1</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 2</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 3</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 4</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 5</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+          <div class="content__main__projects-project">
+            <span class="content__main__projects-project-title">Project 6</span>
+            <span class="content__main__projects-project-description">Description</span>
+          </div>
+        </div>
       </div>
 
-      <div class="content__anouncements">
-
+      <div class="content__announcements">
+        <span class="content__announcements-title">Announcements</span>
+        <div class="content__announcements-announcement"></div>
       </div>
 
       <div class="content__trending">
-
+        <span class="content__trending-title">Trending</span>
+        <div class="content__trending__container"></div>
       </div>
     </div>
   </div>
 </body>
+
 </html>

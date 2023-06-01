@@ -198,6 +198,8 @@ body {
 
 .content__main__projects .content__main__projects-project {
   background-color: #fff;
+  border-left: 5px solid #93d2a2;
+  border-radius: 1rem;
   padding: 40px;
   display: flex;
   flex-direction: column;
